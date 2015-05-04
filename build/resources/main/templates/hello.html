@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>회원</title>
+<!-- <link rel="shortcut icon" href="//img.danawa.com/new/danawa_main/v1/img/danawa_favicon.ico" />  -->
+<link type="text/css" rel="stylesheet" href="//static.danawa.com/new/recss/login_page.css" />
+<link type="text/css" rel="stylesheet" href="//static.danawa.com/new/recss/member_new.css" />
+</head>
+<body class="intro">
+	<div id="wrap_login">
+		<!-- header -->
+		<div id="header">
+			<!-- <h1><a href="http://www.danawa.com/"><img src="//img.danawa.com/new/login_new/img/img_h1_logo.gif" alt="www.danawa.com" /></a></h1> -->
+			<h2>환영합니다</h2>
+		</div>
+		<!--// header -->
+	
+		<!-- content -->
+		<div id="content">
+			<!-- middle_content -->
+			<div class="middle_content">
+						<!-- login_area -->
+						<div class="login_area" style="margin:0 auto">
+							<form th:action="@{/join}" method="post" style="display: inline;">
+							<input name="hdnUrl" type="hidden" id="hdnUrl" value="http://www.danawa.com/" />
+							<fieldset class="login_wide">
+							<legend>로그인 정보 입력</legend>
+							<!-- box_login -->
+							<div class="box_login">
+								<div class="input_id_box"><h1 th:inline="text">[[${#httpServletRequest.remoteUser}]]!</h1></div>
+							</div>
+							<!--// box_login -->
+							</fieldset>
+							</form>
+							<!-- btn_login_center -->
+							<div class="btn_login_center">
+								<form th:action="@{/logout}" method="post"><input type="submit" class="btn_type1 mr3" value="로그아웃"/></form>
+							</div>
+							<!--// btn_login_center -->
+						</div>
+						<!--// login_area -->
+	
+						<!-- box_link -->
+						<div class="bg_white"></div>
+			</div>
+			<!--// middle_content -->
+		</div>
+		<!--// content -->
+	
+		<!-- footer -->
+		<div id="footer">
+			<address>Copyrightⓒ <strong>이주희</strong> Co., Ltd. All Rights Reserved.</address>
+		</div>
+		<!--// footer -->
+	</div>
+</body>
+</html>
+
