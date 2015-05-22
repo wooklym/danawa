@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	layout:decorator="/layout/common">
+
+<section layout:fragment="content">
+	<body>
+
+		<div class="prodlist_wrap" style="float: left;">
+			<div class="dir_location">
+				<ul class="dir_list">
+					<li class="dir_item dir_home"><span class="dir_link">홈</span></li>
+					<li class="dir_item"><span class="dir_link">관심 상품</span></li>
+				</ul>
+			</div>
+						<form name="FORM_myWishProdList" style="margin: 0px;">
+				<input type="hidden" name="procOrder" /> <input type="hidden"
+					name="srcFolder" value="6025747" /> <input type="hidden"
+					name="tgtFolder" /> <input type="hidden" name="nServiceType"
+					value="0" />
+
+				<!-- 저장목록 {{{ -->
+				<table cellpadding="0" cellspacing="0" border="0" width="760">
+					<tbody>
+						<tr>
+							<td colspan="19" height="2" bgcolor="#989898"></td>
+						</tr>
+						<tr bgcolor="#f6f6f6" align="center">
+							<td width="26"><input type="checkbox" name="all_control"
+								onclick="chkbox_control(this.form,this.checked);" /></td>
+							<td width="1" height="29" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="52" class="txt_00" style="padding-top: 4px">이미지</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="101" class="txt_00" style="padding-top: 4px">분류</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="255" class="txt_00" style="padding-top: 4px">상품명/상품설명</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="45" class="txt_00" style="padding-top: 4px">업체수</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="67" class="txt_00" style="padding-top: 4px">평균가</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="67" class="txt_00" style="padding-top: 4px">최저가</td>
+							<td width="1" valign="top"><img
+								src="http://img.danawa.com/new/wish/img/table_line.gif"
+								width="1" height="7" alt="" border="0" /></td>
+							<td width="110" class="txt_00"></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table cellpadding="0" cellspacing="0" border="0" width="760">
+					<colgroup>
+						<col width="26" />
+						<col width="53" style="padding: 2px 0 2px 0" />
+						<col width="102" style="padding-left: 5px;" />
+						<col width="259" style="padding: 5px 0 2px 0" />
+						<col width="46" />
+						<col width="67" />
+						<col width="67" />
+						<col width="110" />
+
+					</colgroup>
+					<tbody>
+						<tr>
+							<td align="center"><input type="checkbox" name="pListSeq[]"
+								value="280547287" onclick="chkbox_view(this.form)" /> <input
+								type="hidden" name="pCode_280547287" value="2987006" /></td>
+							<td align="center"><img
+								src="http://timg.danawa.com/prod_img/500000/006/987/img/2987006_1_80.jpg"
+								onerror="this.src='http://img.danawa.com/common/error/noimg_50x50.gif'"
+								width="50" height="50" border="0" /></td>
+							<td align="center"><b>노트북</b></td>
+							<td><a href="javascript:pBlog('2987006/C/860/869/10581/0')">LG전자
+									울트라PC 그램 15ZD950-GX30K (정품)</a></td>
+							<td align="center">113</td>
+							<td align="center" class="txt_00">930,389 <input
+								type="hidden" name="TXT_AvgPrice_280547287" value="930389" />
+							</td>
+							<td align="center" class="list_price_1">847,000 <input
+								type="hidden" name="TXT_MinPrice_280547287" value="847000" />
+							</td>
+							<td align="center"><a
+								href="javascript:pBlog('2987006/C/860/869/10581/0')"><img
+									src="http://img.danawa.com/new/popup/img/btn_buy.gif"
+									alt="사러가기" width="65" height="26" /></a></td>
+						</tr>
+
+						<tr>
+							<td colspan="10" height="1"
+								background="http://img.danawa.com/game/pro_bg_line.gif"></td>
+						</tr>
+						<tr>
+							<td align="center"><input type="checkbox" name="pListSeq[]"
+								value="280547290" onclick="chkbox_view(this.form)" /> <input
+								type="hidden" name="pCode_280547290" value="3060343" /></td>
+							<td align="center"><img
+								src="http://timg.danawa.com/prod_img/500000/343/060/img/3060343_1_80.jpg"
+								onerror="this.src='http://img.danawa.com/common/error/noimg_50x50.gif'"
+								width="50" height="50" border="0" /></td>
+							<td align="center"><b>노트북</b></td>
+							<td><a href="javascript:pBlog('3060343/C/860/869/10581/0')">LG전자
+									탭북 11T750-GT30K (정품)</a></td>
+							<td align="center">103</td>
+							<td align="center" class="txt_00">809,006 <input
+								type="hidden" name="TXT_AvgPrice_280547290" value="809006" />
+							</td>
+							<td align="center" class="list_price_1">724,000 <input
+								type="hidden" name="TXT_MinPrice_280547290" value="724000" />
+							</td>
+							<td align="center"><a
+								href="javascript:pBlog('3060343/C/860/869/10581/0')"><img
+									src="http://img.danawa.com/new/popup/img/btn_buy.gif"
+									alt="사러가기" width="65" height="26" /></a></td>
+						</tr>
+
+					</tbody>
+				</table>
+				<!-- }}} 저장목록 -->
+
+				<table cellpadding="0" cellspacing="0" border="0" width="760">
+					<tbody>
+						<tr>
+							<td colspan="2" height="1" bgcolor="#e0e0e0"></td>
+						</tr>
+						<tr bgcolor="#f6f6f6">
+							<td height="31" style="padding: 5px 0 0 8px;">
+								<!--<a href="#"><img src="http://img.danawa.com/new/wish/img/btn_all.gif" width="58" height="21" border="0"></a>-->
+								<!-- <a href="javascript:;"><img src="http://img.danawa.com/new/wish/img/btn_save.gif" width="59" height="21" border="0" onClick="myWishProdProc('SAVE','6025747')"></a> -->
+								<a href="javascript:myWishProdProc('DELETE',1);"><img
+									src="http://img.danawa.com/new/wish/img/btn_del.gif" width="34"
+									height="21" border="0" /></a>
+							</td>
+							<td style="padding: 5px 8px 0 0;" align="right"><a
+								href="javascript:;"><img
+									src="http://img.danawa.com/new/popup/img/wishlist_copy.gif"
+									onclick="myWishFolderListMenu(this,event,'LAY_CopyEstimateFolder')" /></a>
+								<a href="javascript:;"><img
+									src="http://img.danawa.com/new/popup/img/wishlist_move.gif"
+									onclick="myWishFolderListMenu(this,event,'LAY_MoveEstimateFolder')" /></a>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" height="1" bgcolor="#a2a2a2"></td>
+						</tr>
+						<tr bgcolor="#eeeeee">
+							<td height="31" style="padding: 5px 0 0 8px"></td>
+							<td align="right" style="padding: 3px 8px 0 0"><img
+								src="http://img.danawa.com/new/wish/img/line_h.gif" width="1"
+								height="15" border="0" style="margin: 0 10px -3px 10px" />
+								평균가 총합금액 : <b><span id="LAY_TotalAvgPrice">1,739,395</span></b>
+								<img src="http://img.danawa.com/new/wish/img/line_h.gif"
+								width="1" height="15" border="0"
+								style="margin: 0 10px -3px 10px" /><font class="txt_00">최저가
+									총합금액 :</font> <font class="list_price"><span
+									id="LAY_TotalMinPrice">1,571,000</span></font></td>
+						</tr>
+						<tr>
+							<td colspan="2" height="1" bgcolor="#a2a2a2"></td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div style="height: 20px;"></div>
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tbody>
+						<tr>
+							<td><a href="javascript:goMyWishProdProc(3,6025747,1);"><img
+									src="http://img.danawa.com/new/wish/img/btn_mail.gif"
+									width="116" height="32" border="0" /></a></td>
+						</tr>
+
+					</tbody>
+				</table>
+
+			</form>
+		</div>
+
+	</body>
+</section>
+</html>
+
