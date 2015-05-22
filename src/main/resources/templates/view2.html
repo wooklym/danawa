@@ -3,69 +3,86 @@
 <head>
 <title>상세</title>
 <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> -->
-<meta http-equiv="X-UA-Compatible" content="IE=Edge" /><meta name="apple-mobile-web-app-title" content="다나와 가격비교 노트북 상품리스트" />
-<meta name="Keywords" content="노트북,notebook,laptop,랩탑,넷북,울트라씬,노트북가방"/>
-<meta name="Description" content="컴퓨터/노트북 디지털 완제품 노트북 가격비교리스트"/>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="apple-mobile-web-app-title" content="다나와 가격비교 노트북 상품리스트" />
+<meta name="Keywords" content="노트북,notebook,laptop,랩탑,넷북,울트라씬,노트북가방" />
+<meta name="Description" content="컴퓨터/노트북 디지털 완제품 노트북 가격비교리스트" />
 <meta content="width=1280" name="viewport" />
-<link rel="shortcut icon" href="//img.danawa.com/new/danawa_main/v1/img/danawa_favicon.ico" />
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/common.css?v=1503161038"/>
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/navigation.css?v=1503161038"/>
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/dictionary.css" />
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/shopping_clip.css" />
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/goods_list.css" />
-<link rel="stylesheet" type="text/css" href="//static.danawa.com/new/recss/new_blog.css" />
-<script type="text/javascript" src="//static.danawa.com/globaljs/external/jquery/core/last/jquery-last.min.js?v=1504090930"></script>
-<script type="text/javascript" charset="euc-kr" src="/globaljs/com/danawa/common/gnb_ui.js?v=1504090930"></script>
-<script type="text/javascript" src="//static.danawa.com/globaljs/external/jquery/plugin/jquery.cookie/jquery.cookie.js"></script>
-<script type="text/javascript" charset="utf-8" src="//static.danawa.com/globaljs/com/danawa/common/searchAutocompleteLayer_UTF8.js?v=1504090930"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="shortcut icon"
+	href="//img.danawa.com/new/danawa_main/v1/img/danawa_favicon.ico" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/common.css?v=1503161038" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/navigation.css?v=1503161038" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/dictionary.css" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/shopping_clip.css" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/goods_list.css" />
+<link rel="stylesheet" type="text/css"
+	href="//static.danawa.com/new/recss/new_blog.css" />
+<script type="text/javascript"
+	src="//static.danawa.com/globaljs/external/jquery/core/last/jquery-last.min.js?v=1504090930"></script>
+<script type="text/javascript" charset="euc-kr"
+	src="/globaljs/com/danawa/common/gnb_ui.js?v=1504090930"></script>
+<script type="text/javascript"
+	src="//static.danawa.com/globaljs/external/jquery/plugin/jquery.cookie/jquery.cookie.js"></script>
+<script type="text/javascript" charset="utf-8"
+	src="//static.danawa.com/globaljs/com/danawa/common/searchAutocompleteLayer_UTF8.js?v=1504090930"></script>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
 <script type="text/javascript" th:inline="javascript">
-/*<![CDATA[*/
+	/*<![CDATA[*/
 	$(function() {
 	});
-	
+
 	function commentWrite() {
 		var now = new Date();
 		$cli = $(".comment-li").first().clone();
-		$cli.find(".id_name b").text(/*[[${#httpServletRequest.remoteUser}]]*/);
+		$cli.find(".id_name b")
+				.text(/*[[${#httpServletRequest.remoteUser}]]*/);
 		$cli.find(".comment-date").text(now.toString());
 		$cli.find(".txt_w").text($("#comment-text").val());
 
 		$(".comment-ul").prepend($cli);
 	}
-/*]]>*/
+	/*]]>*/
 </script>
 </head>
 <body>
-<div id="skip_navigation">
-<a href="#danawa_header" onclick="document.getElementById('danawa_header').tabIndex=-1;document.getElementById('danawa_header').focus();return false;"><span>메인 메뉴로 바로가기</span></a>
-<a href="#danawa_content" onclick="document.getElementById('danawa_content').tabIndex=-1;document.getElementById('danawa_content').focus();return false;"><span>본문으로 바로가기</span></a>
-</div>
+	<div id="skip_navigation">
+		<a href="#danawa_header"
+			onclick="document.getElementById('danawa_header').tabIndex=-1;document.getElementById('danawa_header').focus();return false;"><span>메인
+				메뉴로 바로가기</span></a> <a href="#danawa_content"
+			onclick="document.getElementById('danawa_content').tabIndex=-1;document.getElementById('danawa_content').focus();return false;"><span>본문으로
+				바로가기</span></a>
+	</div>
 
-<div id="danawa_wrap" class="danawa_product_list aside_show">
-	<div id="danawa_header">
-		<div class="danawa_gnb">
-			<div class="danawa_gnb_center">
-				<h2 class="screen_out">상단 서비스 목록</h2>
-		<div class="top_list_ty1 top_service_login">
-			<!-- <ul>
+	<div id="danawa_wrap" class="danawa_product_list aside_show">
+		<div id="danawa_header">
+			<div class="danawa_gnb">
+				<div class="danawa_gnb_center">
+					<h2 class="screen_out">상단 서비스 목록</h2>
+					<div class="top_list_ty1 top_service_login">
+						<!-- <ul>
 				<li><a href="https://login.danawa.com/login.php?url=http%3A%2F%2Fprod.danawa.com%2Flist%2F%3Fcate%3D112758%26logger_kw%3D15main_11_02">로그인</a></li>
 				<li><a href="https://login.danawa.com/join_member_step0.php">회원가입</a></li>
 			</ul> -->
-		</div>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="danawa_top_search">
-							<div class="danawa_search_center">
+			<div class="danawa_top_search">
+				<div class="danawa_search_center">
 					<div class="top_logo_area">
 						<h2>
-							<a href="http://www.danawa.com/pc/">
-								<img src="//img.danawa.com/new/newmain/img/h2_list_computer.png" alt="컴퓨터" />
-							</a>
-						
-							<a href="http://www.danawa.com/notebook/">
-								<img src="//img.danawa.com/new/newmain/img/h2_list_notebook.png" alt="노트북" />
+							<a href="http://www.danawa.com/pc/"> <img
+								src="//img.danawa.com/new/newmain/img/h2_list_computer.png"
+								alt="컴퓨터" />
+							</a> <a href="http://www.danawa.com/notebook/"> <img
+								src="//img.danawa.com/new/newmain/img/h2_list_notebook.png"
+								alt="노트북" />
 							</a>
 						</h2>
 					</div>
@@ -73,527 +90,705 @@
 					<div class="search_middle_area">
 
 						<div class="top_search_area">
-														<form id="srchFRM_TOP" name="srchFRM_TOP">
-														<fieldset>
-								<legend>검색</legend>
+							<form id="srchFRM_TOP" name="srchFRM_TOP">
+								<fieldset>
+									<legend>검색</legend>
 									<div class="search_area_content">
-		<input type="text" class="search_words_insert" name="k1" id="AKCSearch" autocomplete="off" title="검색어 입력" />
-		<input id="module" name="module" value="goods" type="hidden" />
-		<input id="act" name="act" value="dispMain" type="hidden" />
-		<span id="akcArrowLayer" class="auto_arrow_top">
-			<a href="#"><span class="btn_auto_close">자동완성 닫기</span></a>
-		</span>
-		<button class="btn_search_submit"><span>검색</span></button>
-	</div>							</fieldset>
+										<input type="text" class="search_words_insert" name="k1"
+											id="AKCSearch" autocomplete="off" title="검색어 입력" /> <input
+											id="module" name="module" value="goods" type="hidden" /> <input
+											id="act" name="act" value="dispMain" type="hidden" /> <span
+											id="akcArrowLayer" class="auto_arrow_top"> <a href="#"><span
+												class="btn_auto_close">자동완성 닫기</span></a>
+										</span>
+										<button class="btn_search_submit">
+											<span>검색</span>
+										</button>
+									</div>
+								</fieldset>
 							</form>
 						</div>
 					</div>
-
+					<div class="my_service">
+						<h2 class="screen_out">내 서비스 목록</h2>
+						<div class="my_service_list">
+							<ul>
+								<li class="recently_seeing_goods"><a href="#"
+									style="cursor: pointer;" onclick="return false;" class=""><span
+										class="my_service_title">최근본상품</span><span class="number_has">1</span></a></li>
+								<li class="interest_goods_service"><a
+									href="http://www.danawa.com/myPage/wishList.html"><span
+										class="my_service_title">관심상품</span><span class="number_has">0</span></a></li>
+								<li class="my_page_service"><a
+									href="http://bbs.danawa.com/point/index.php"><span
+										class="my_service_title">마이페이지</span></a></li>
+							</ul>
+						</div>
+						<div class="my_service_layer" style="display: none;">
+							<h3 class="screen_out">최근본상품</h3>
+							<a href="#" class="com_gnb btn_service_close">닫기</a>
+							<p class="explain_text">
+								현재 가격과 <strong class="color_black">변동된 가격</strong>이 함께 표시됩니다.<br />
+								<span class="max_weeks">(최대 15개 상품 / 보관기간 2주)</span>
+							</p>
+							<ul></ul>
+							<div class="paging_fix"></div>
+						</div>
+					</div>
 					<div class="my_service">
 						<!-- <h2 class="screen_out">내 서비스 목록</h2><div class="my_service_list"><ul><li class="recently_seeing_goods"><a href="#" style="cursor:pointer;" onclick="return false;"><span class="my_service_title">최근본상품</span><span class="number_has">2</span></a></li><li class="interest_goods_service"><a href="http://www.danawa.com/myPage/wishList.html"><span class="my_service_title">관심상품</span></a></li><li class="my_note_serice"><a href="https://login.danawa.com/login.php?url=http%3A%2F%2Fprod.danawa.com%2Flist%2F%3Fcate%3D112758%26logger_kw%3D15main_11_02"><span class="my_service_title">내쪽지</span></a></li><li class="my_page_service"><a href="https://login.danawa.com/login.php?url=http%3A%2F%2Fprod.danawa.com%2Flist%2F%3Fcate%3D112758%26logger_kw%3D15main_11_02"><span class="my_service_title">마이페이지</span></a></li></ul></div><div class="my_service_layer" style="display:none;"><h3 class="screen_out">최근본상품</h3><a href="#" class="com_gnb btn_service_close">닫기</a><p class="explain_text">현재 가격과 <strong class="color_black">변동된 가격</strong>이 함께 표시됩니다.<br/><span class="max_weeks">(최대 15개 상품 / 보관기간 2주)</span></p><ul></ul><div class="paging_fix"></div></div> -->
 					</div>
 				</div>
 
 
-				
+
 				<script type="text/javascript">
-				jQuery(document).ready(function($){ new $("FORM#srchFRM_TOP").danawaSearchAutoComplete({"gnbCode":3}); });
+					jQuery(document).ready(function($) {
+						new $("FORM#srchFRM_TOP").danawaSearchAutoComplete({
+							"gnbCode" : 3
+						});
+					});
 				</script>
-<!-- 			</div> -->
-		</div>
-	</div>
-
-	<div id="danawa_container">
-<div id="termDicView_pop"></div>
-<div class="product_list_cover">
-	<div>
-		<img src="//img.danawa.com/totalMain/ajax-loader.gif" alt="로딩중" />
-	</div>
-</div>
-<div class="search_option_cover">
-	<div>
-		<img src="//img.danawa.com/totalMain/ajax-loader.gif" alt="로딩중" />
-	</div>
-</div>
-<div class="content_wrapper">
-	<div class="top_down_position" style="display:none">
-		<div class="top_down_area">
-			<div class="top_down_fixed">
-				<a class="btn_layer_up" href="#"><span>컨텐츠 상단으로 이동</span></a>
-				<a class="btn_layer_down" href="#"><span>컨텐츠 하단으로 이동</span></a>
+				<!-- 			</div> -->
 			</div>
 		</div>
-	</div>
-	<div id="danawa_content">
-		<div class="prodlist_wrap" style="margin:0 auto; float:none;">
-			<div class="goods_left_area">
-		<!-- goods_thumb -->
-		<div class="goods_thumb">
-			<div class="img_area">
-								<a href="#bookmark_product_information" onclick="javascript:changeImg('http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4.jpg', '0', '0','smallImg3','제조사제공');" class="thumb">
-					<img src="http://timg.danawa.com/prod_img/500000/183/095/img/3095183_1_160.jpg" alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지" onerror="javascript:this.src='//img.danawa.com/new/noData/img/noImg_160.gif'"/>
-				</a>
+
+		<div id="danawa_container">
+			<div id="termDicView_pop"></div>
+			<div class="product_list_cover">
+				<div>
+					<img src="//img.danawa.com/totalMain/ajax-loader.gif" alt="로딩중" />
+				</div>
 			</div>
-			<p class="img_source">이미지 출처 : 제조사제공</p>
-			<!-- thumb_slist -->
-			<div class="thumb_slist">
-				<ul>
-					
-				<li class="">
-					<a href="javascript:;" onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1_160.jpg',0,'다나와제작CM')">
-						<span class="simg">
-							<input type="hidden" value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1.jpg"/>
-							<img src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1_80.jpg" alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_0" onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'"/>
-						</span>
-					</a>
-				</li>
-				
-				<li class="w34">
-					<a href="javascript:;" onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2_160.jpg',1,'제조사제공')">
-						<span class="simg">
-							<input type="hidden" value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2.jpg"/>
-							<img src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2_80.jpg" alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_1" onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'"/>
-						</span>
-					</a>
-				</li>
-				
-				<li class="">
-					<a href="javascript:;" onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3_160.jpg',2,'제조사제공')">
-						<span class="simg">
-							<input type="hidden" value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3.jpg"/>
-							<img src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3_80.jpg" alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_2" onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'"/>
-						</span>
-					</a>
-				</li>
-				
-				<li class="">
-					<a href="javascript:;" onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/183/095/img/3095183_1_160.jpg',3,'제조사제공')">
-						<span class="simg">
-							<input type="hidden" value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4.jpg"/>
-							<img src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4_80.jpg" alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_3" onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'"/>
-						</span>
-					</a>
-				</li>
-				<li class="w30"></li>
-		<li class="w30">
-			<a href="#bookmark_product_information">
-				<span class="ico_zoom"><em>확대보기</em></span>
-			</a>
-		</li>
-						</ul>
+			<div class="search_option_cover">
+				<div>
+					<img src="//img.danawa.com/totalMain/ajax-loader.gif" alt="로딩중" />
+				</div>
 			</div>
+			<div class="content_wrapper">
+				<div class="top_down_position" style="display: none">
+					<div class="top_down_area">
+						<div class="top_down_fixed">
+							<a class="btn_layer_up" href="#"><span>컨텐츠 상단으로 이동</span></a> <a
+								class="btn_layer_down" href="#"><span>컨텐츠 하단으로 이동</span></a>
+						</div>
+					</div>
+				</div>
+				<div id="danawa_content">
+					<div class="prodlist_wrap" style="margin: 0 auto; float: none;">
+						<div class="goods_left_area">
+							<!-- goods_thumb -->
+							<div class="goods_thumb">
+								<div class="img_area">
+									<a href="#bookmark_product_information"
+										onclick="javascript:changeImg('http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4.jpg', '0', '0','smallImg3','제조사제공');"
+										class="thumb"> <img
+										src="http://timg.danawa.com/prod_img/500000/183/095/img/3095183_1_160.jpg"
+										alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지"
+										onerror="javascript:this.src='//img.danawa.com/new/noData/img/noImg_160.gif'" />
+									</a>
+								</div>
+								<p class="img_source">이미지 출처 : 제조사제공</p>
+								<!-- thumb_slist -->
+								<div class="thumb_slist">
+									<ul>
 
-			<!-- made_information -->
-			<div class="made_information">
-				<dl class="first">
-					<dt>등록년월</dt>
-					<dd>
-						<strong>
-						2015.01						</strong>
-					</dd>
-				</dl>
-				<dl>
-					<dt>제조회사</dt>
-					<dd>
-					<a href="http://www.lge.co.kr/
-" target="_blank">LG전자</a>					</dd>
-				</dl>
-				<dl class="last"></dl>			</div>
-			<!--// made_information -->
-		</div>
-		<!--// goods_thumb -->
+										<li class=""><a href="javascript:;"
+											onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1_160.jpg',0,'다나와제작CM')">
+												<span class="simg"> <input type="hidden"
+													value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1.jpg" />
+													<img
+													src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_1_80.jpg"
+													alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_0"
+													onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'" />
+											</span>
+										</a></li>
 
-		<!-- goods_detail_area -->
-		<div class="goods_detail_area">
+										<li class="w34"><a href="javascript:;"
+											onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2_160.jpg',1,'제조사제공')">
+												<span class="simg"> <input type="hidden"
+													value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2.jpg" />
+													<img
+													src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_2_80.jpg"
+													alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_1"
+													onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'" />
+											</span>
+										</a></li>
 
-			<p class="goods_title">MSI CX61-i5 2PF Runa Moon (500GB)			
-			</p>
-										<div class="goods_buy_line">
-								<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0" target="_blank" class="mall_simg" onmousedown="_trkEventLog('13상품블로그_최저가');" onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-									<img alt="베컴" src="//img.danawa.com/cmpny_info/images/PH111_logo.gif"/>								</a>
-								<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_최저가');" onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-									<span class="big_price">
-										697,000</span><span class="won">원
+										<li class=""><a href="javascript:;"
+											onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3_160.jpg',2,'제조사제공')">
+												<span class="simg"> <input type="hidden"
+													value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3.jpg" />
+													<img
+													src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_3_80.jpg"
+													alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_2"
+													onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'" />
+											</span>
+										</a></li>
+
+										<li class=""><a href="javascript:;"
+											onmouseover="javascript:productInfoImageSwap(this,'http://timg.danawa.com/prod_img/500000/183/095/img/3095183_1_160.jpg',3,'제조사제공')">
+												<span class="simg"> <input type="hidden"
+													value="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4.jpg" />
+													<img
+													src="http://timg.danawa.com/prod_img/500000/654/942/img/2942654_4_80.jpg"
+													alt="LG전자 울트라PC 그램 14ZD950-GX58K (정품)_이미지_3"
+													onerror="javascript:this.src='//img.danawa.com/new/blog_product/img/@noimg.gif'" />
+											</span>
+										</a></li>
+										<li class="w30"></li>
+										<li class="w30"><a href="#bookmark_product_information">
+												<span class="ico_zoom"><em>확대보기</em></span>
+										</a></li>
+									</ul>
+								</div>
+
+								<!-- made_information -->
+								<div class="made_information">
+									<dl class="first">
+										<dt>등록년월</dt>
+										<dd>
+											<strong> 2015.01 </strong>
+										</dd>
+									</dl>
+									<dl>
+										<dt>제조회사</dt>
+										<dd>
+											<a href="http://www.lge.co.kr/
+" target="_blank">LG전자</a>
+										</dd>
+									</dl>
+									<dl class="last"></dl>
+								</div>
+								<!--// made_information -->
+							</div>
+							<!--// goods_thumb -->
+
+							<!-- goods_detail_area -->
+							<div class="goods_detail_area">
+
+								<p class="goods_title">MSI CX61-i5 2PF Runa Moon (500GB)</p>
+								<div class="goods_buy_line">
+									<a
+										href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0"
+										target="_blank" class="mall_simg"
+										onmousedown="_trkEventLog('13상품블로그_최저가');"
+										onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+										<img alt="베컴"
+										src="//img.danawa.com/cmpny_info/images/PH111_logo.gif" />
+									</a> <a
+										href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0"
+										target="_blank" onmousedown="_trkEventLog('13상품블로그_최저가');"
+										onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+										<span class="big_price"> 697,000</span><span class="won">원
 									</span>
-								</a>
-								<span class="mall_txt">
-																		<span class="delivery_charge">배송비 무료</span>
-																			<span class="card_none">카드혜택없음</span>
-																	</span>
-								<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_최저가');" onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')"><span class="btn_buy_blog">구매하기</span></a>
-																	<a href="http://shop.danawa.com/virtualestimate/?controller=dealerMember&amp;methods=memberShipInfo" target="_blank" onmousedown="_trkEventLog('상품블로그_딜러몰1');">
+									</a> <span class="mall_txt"> <span class="delivery_charge">배송비
+											무료</span> <span class="card_none">카드혜택없음</span>
+									</span> <a
+										href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=PH111&amp;safe_trade=2&amp;fee_type=S&amp;prod_type=T1&amp;link_pcode=&amp;package=0&amp;setpc=0"
+										target="_blank" onmousedown="_trkEventLog('13상품블로그_최저가');"
+										onclick="mac30_conv_buy(1033000,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')"><span
+										class="btn_buy_blog">구매하기</span></a> <a
+										href="http://shop.danawa.com/virtualestimate/?controller=dealerMember&amp;methods=memberShipInfo"
+										target="_blank" onmousedown="_trkEventLog('상품블로그_딜러몰1');">
 										<span class="btn_view_price">딜러가격보기</span>
 									</a>
-															</div>
-										<div class="mall_sell_list">							<ul>
-								<!-- mall_simg2 size : 40 *18 -->
-								<li class="mall_simg2">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=667801583&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<img alt="G마켓" src="//img.danawa.com/cmpny_info/images/EE128_logo.gif"/>									</a>
-								</li>
-								<li class="mall_price1">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=667801583&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<span class="tahoma">699,000</span>
+								</div>
+								<div class="mall_sell_list">
+									<ul>
+										<!-- mall_simg2 size : 40 *18 -->
+										<li class="mall_simg2"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=667801583&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<img alt="G마켓"
+												src="//img.danawa.com/cmpny_info/images/EE128_logo.gif" />
+										</a></li>
+										<li class="mall_price1"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE128&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=667801583&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<span class="tahoma">699,000</span>
+										</a> <span class="mall_won">원</span></li>
+										<li class="mall_price2">+ 2,000<span class="mall_won">원</span></li>
+										<li class="delivery_charge2">배송비 무료</li>
+										<li class="mall_card2" style="cursor: pointer;">카드혜택
+											<div class="layer_type1"
+												style="display: none; z-index: 999; left: 88px; top: -17px">
+												<div style="" class="layer_abs18">
+													<p class="txt_layer5">
+														현대12/국민12/신한12/씨티1<br />2/삼성5/롯데5/하나5/농협3/<br />전북JB12
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<ul>
+										<!-- mall_simg2 size : 40 *18 -->
+										<li class="mall_simg2"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=B229470671&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<img alt="옥션"
+												src="//img.danawa.com/cmpny_info/images/EE715_logo.gif" />
+										</a></li>
+										<li class="mall_price1"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=B229470671&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<span class="tahoma">701,040</span>
+										</a> <span class="mall_won">원</span></li>
+										<li class="mall_price2">+ 4,040<span class="mall_won">원</span></li>
+										<li class="delivery_charge2">배송비 무료</li>
+										<li class="mall_card2" style="cursor: pointer;">카드혜택
+											<div class="layer_type1"
+												style="display: none; z-index: 999; left: 88px; top: -17px">
+												<div style="" class="layer_abs18">
+													<p class="txt_layer5">
+														현대12/신한12/국민12/삼성1<br />0/씨티12/하나5/롯데5/농협3<br />/전북JB12/광주은행12
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<ul>
+										<!-- mall_simg2 size : 40 *18 -->
+										<li class="mall_simg2"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1211536282&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<img alt="11번가"
+												src="//img.danawa.com/cmpny_info/images/TH201_logo.gif" />
+										</a></li>
+										<li class="mall_price1"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1211536282&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<span class="tahoma">724,978</span>
+										</a> <span class="mall_won">원</span></li>
+										<li class="mall_price2">+ 27,978<span class="mall_won">원</span></li>
+										<li class="delivery_charge2">배송비 무료</li>
+										<li class="mall_card2" style="cursor: pointer;">카드혜택
+											<div class="layer_type1"
+												style="display: none; z-index: 999; left: 88px; top: -17px">
+												<div style="" class="layer_abs18">
+													<p class="txt_layer5">
+														신한6/국민6/현대6/삼성6/비씨<br />3/씨티3/우리3/하나5/롯데5
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+									<ul>
+										<!-- mall_simg2 size : 40 *18 -->
+										<li class="mall_simg2"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1220563712&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<img alt="11번가"
+												src="//img.danawa.com/cmpny_info/images/TH201_logo.gif" />
+										</a></li>
+										<li class="mall_price1"><a
+											href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1220563712&amp;package=0&amp;setpc=0"
+											target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');"
+											onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
+												<span class="tahoma">724,978</span>
+										</a> <span class="mall_won">원</span></li>
+										<li class="mall_price2">+ 27,978<span class="mall_won">원</span></li>
+										<li class="delivery_charge2">배송비 무료</li>
+										<li class="mall_card2" style="cursor: pointer;">카드혜택
+											<div class="layer_type1"
+												style="display: none; z-index: 999; left: 88px; top: -17px">
+												<div style="" class="layer_abs18">
+													<p class="txt_layer5">
+														신한6/국민6/현대6/삼성6/비씨<br />3/씨티3/우리3/하나5/롯데5
+													</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!-- more_view_line -->
+								<div class="more_view_line">
+									<p class="danawa_normal_price">
+										(다나와 평균가:<strong>742,653</strong>원)
+									</p>
+									<a href="#bookmark_price_compare" class="btn_mall200_view">
+										<span class="btn_mall200_txt">쇼핑몰별 152개 더보기</span> <span
+										class="ico_btn_plus">더보기</span>
 									</a>
-									<span class="mall_won">원</span>
-								</li>
-								<li class="mall_price2">+ 2,000<span class="mall_won">원</span></li>
-<li class="delivery_charge2">배송비 무료</li>								<li class="mall_card2" style="cursor:pointer;">
-									카드혜택
-									<div class="layer_type1" style="display:none;z-index:999;left:88px;top:-17px">
-										<div style="" class="layer_abs18">
-											<p class="txt_layer5">
-												현대12/국민12/신한12/씨티1<br/>2/삼성5/롯데5/하나5/농협3/<br/>전북JB12											</p>
+								</div>
+								<!--// more_view_line -->
+								<div class="cm_recom">
+									<p>뛰어난 성능과 완벽한 휴대성(980g)을 갖춘 울트라PC 그램</p>
+								</div>
+								<div class="spec_txt">
+									<p>
+										<a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1706,'view',this,3);"><u>인텔</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(24265,'view',this,3);"><u>코어i5-5세대</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(4665,'view',this,3);"><u>i5-5200U
+												(2.2GHz)</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(359,'view',this,3);"><u>LED백라이트</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(904,'view',this,3);"><u>광시야각</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(7800,'view',this,3);"><u>35.56cm(14인치)</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1708,'view',this,3);"><u>1920x1080</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(23005,'view',this,3);"><u>M.2</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(2,'view',this,3);"><u>128GB</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(3467,'view',this,3);"><u>8GB</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(4387,'view',this,3);"><u>DDR3L</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1769,'view',this,3);"><u>ODD
+												옵션(선택)</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(324,'view',this,3);"><u>운영체제
+												미포함</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(4413,'view',this,3);"><u>인텔</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(5320,'view',this,3);"><u>HD
+												5500</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1991,'view',this,3);"><u>시스템
+												메모리 공유</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1478,'view',this,3);"><u>980g</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(4384,'view',this,3);"><u>리튬
+												폴리머</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1987,'view',this,3);"><u>탈착
+												불가능</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(343,'view',this,3);"><u>100Mbps
+												유선랜</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(10514,'view',this,3);"><u>802.11
+												n/ac 무선랜</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(356,'view',this,3);"><u>WiDi</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(1771,'view',this,3);"><u>블루투스
+												4.0</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(290,'view',this,3);"><u>HDMI</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(328,'view',this,3);"><u>웹캠</u></a>
+										/ <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(295,'view',this,3);"><u>USB
+												2.0</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(2794,'view',this,3);"><u>USB
+												3.0</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(331,'view',this,3);"><u>멀티
+												리더기</u></a> / <a style="cursor: help;"
+											onclick="javascript:jQuery.termDicViewLink(333,'view',this,3);"><u>블록
+												키보드</u></a> / 색상: 화이트 / M.2 SSD
+										<!-- &nbsp;<a href="#"><em>[더보기]</em></a> -->
+									</p>
+								</div>
+								<div class="event_txt_area">
+									<ul class="event_list">
+										<li><a
+											href="http://www.interpark.com/gate/ippgw.jsp?goods_no=3227988249&amp;biz_cd=P01415"
+											target="_blank"><strong>1,101,050</strong>원 / 신한/하나/외한카드
+												5% 청구할인으로 최저가 구매!</a><a class="btn_now_go"
+											href="http://www.interpark.com/gate/ippgw.jsp?goods_no=3227988249&amp;biz_cd=P01415"
+											target="_blank"><span>바로가기</span></a></li>
+									</ul>
+								</div>
+								<div class="icon_link_area">
+									<a href="javascript:;"><span class="ico_price_copy"
+										id="clipboardPriceCopy" title="가격복사">가격복사</span></a> <a
+										href="javascript:void(0);"
+										onclick="reportLoginLayoutMsg('reportFocus');"><span
+										class="ico_link1" title="신고하기" id="reportFocus">신고하기</span></a> <a
+										href="javascript:;" onclick="javascript:;"><span
+										class="ico_link2" title="관심상품">관심상품담기</span></a> <a
+										href="javascript:;"><span class="ico_link4" title="주소복사">주소복사</span></a>
+
+									<a
+										href="http://www.danawa.com/sns/danawaSnsShare.php?snsType=1&amp;nShareType=2&amp;content=LG%C0%FC%C0%DA+%BF%EF%C6%AE%B6%F3PC+%B1%D7%B7%A5+14ZD950-GX58K+%28%C1%A4%C7%B0%29&amp;sourceUrl=http%3A%2F%2Fprod.danawa.com%2Finfo%2F%3Fpcode%3D2942654%26cate%3D112908"
+										target="_blank" onmousedown="_trkEventLog('13상품블로그_SNS');"><span
+										class="ico_link5" title="페이스북">FACEBOOK 추천</span></a> <a
+										href="http://www.danawa.com/sns/danawaSnsShare.php?snsType=2&amp;nShareType=2&amp;content=LG%C0%FC%C0%DA+%BF%EF%C6%AE%B6%F3PC+%B1%D7%B7%A5+14ZD950-GX58K+%28%C1%A4%C7%B0%29+%C3%D6%C0%FA%B0%A1+1%2C033%2C000%BF%F8&amp;sourceUrl=http%3A%2F%2Fprod.danawa.com%2Finfo%2F%3Fpcode%3D2942654%26cate%3D112908"
+										target="_blank" onmousedown="_trkEventLog('13상품블로그_SNS');"><span
+										class="ico_link6" title="트위터">twitter</span></a> <a
+										href="javascript:;"
+										onclick="window.open('','popQR','width=510,height=295,left=100,top=100,toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no');document.formQR.submit();"
+										onmousedown="_trkEventLog('13상품블로그_SNS');"><span
+										class="ico_link9" title="QR코드">QR코드</span></a>
+								</div>
+								<div class="layer_type1" id="clipboardLayer"
+									style="display: none">
+									<div class="layer_abs2">
+										<!-- 위치 조절 -->
+										<a href="javascript:;"> <span class="btn_layer_x">닫기</span>
+										</a>
+										<div id="clipboardAjaxLoadingLayer">
+											<div style="margin-left: 45%; margin-top: 35px">
+												<img src="//img.danawa.com/totalMain/ajax-loader.gif"
+													alt="로딩중" />
+											</div>
+										</div>
+										<div id="clipboardAjaxCompleteLayer" style="display: none">
+											<p class="txt_layer1">
+												MSI CX61-i5 2PF Runa Moon (500GB)<br /> <strong>주소를
+													복사합니다.</strong><br />
+											</p>
+											<div class="layer_btn_center m18">
+												<a href="javascript:;"> <span class="btn_layer_t1 w49"
+													id="clipboardOriginalUrl">원래주소</span>
+												</a> <a href="javascript:;"> <span class="btn_layer_t1 w49"
+													id="clipboardShotUrl">짧은주소</span>
+												</a> <a href="javascript:;"> <span class="btn_layer_t2 w49">취소</span>
+												</a>
+											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-							<ul>
-								<!-- mall_simg2 size : 40 *18 -->
-								<li class="mall_simg2">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=B229470671&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<img alt="옥션" src="//img.danawa.com/cmpny_info/images/EE715_logo.gif"/>									</a>
-								</li>
-								<li class="mall_price1">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=EE715&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=B229470671&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111530,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<span class="tahoma">701,040</span>
-									</a>
-									<span class="mall_won">원</span>
-								</li>
-								<li class="mall_price2">+ 4,040<span class="mall_won">원</span></li>
-<li class="delivery_charge2">배송비 무료</li>								<li class="mall_card2" style="cursor:pointer;">
-									카드혜택
-									<div class="layer_type1" style="display:none;z-index:999;left:88px;top:-17px">
-										<div style="" class="layer_abs18">
-											<p class="txt_layer5">
-												현대12/신한12/국민12/삼성1<br/>0/씨티12/하나5/롯데5/농협3<br/>/전북JB12/광주은행12											</p>
+								</div>
+								<div class="layer_type1" id="clipboardCompleteLayer"
+									style="display: none">
+									<div class="layer_abs2">
+										<!-- 위치 조절 -->
+										<a href="javascript:;"> <span class="btn_layer_x">닫기</span>
+										</a>
+										<p class="txt_layer1">
+											주소가 복사되었습니다. <br /> <strong>Ctrl + v 로 붙여넣기가 가능합니다.</strong><br />
+										</p>
+										<div class="layer_btn_center m18">
+											<a href="javascript:;"> <span class="btn_layer_t1 w49">확인</span>
+											</a>
 										</div>
 									</div>
-								</li>
-							</ul>
-							<ul>
-								<!-- mall_simg2 size : 40 *18 -->
-								<li class="mall_simg2">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1211536282&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<img alt="11번가" src="//img.danawa.com/cmpny_info/images/TH201_logo.gif"/>									</a>
-								</li>
-								<li class="mall_price1">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1211536282&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<span class="tahoma">724,978</span>
-									</a>
-									<span class="mall_won">원</span>
-								</li>
-								<li class="mall_price2">+ 27,978<span class="mall_won">원</span></li>
-<li class="delivery_charge2">배송비 무료</li>								<li class="mall_card2" style="cursor:pointer;">
-									카드혜택
-									<div class="layer_type1" style="display:none;z-index:999;left:88px;top:-17px">
-										<div style="" class="layer_abs18">
-											<p class="txt_layer5">
-												신한6/국민6/현대6/삼성6/비씨<br/>3/씨티3/우리3/하나5/롯데5											</p>
+								</div>
+								<div class="layer_type1" id="wishProductLayer"
+									style="display: none">
+									<div class="layer_abs6">
+										<!-- 위치 조절 -->
+										<a href="javascript:;"><span class="btn_layer_x">닫기</span></a>
+										<p class="txt_layer2">저장할 위치를 선택하여 주십시오.</p>
+										<p class="txt_layer3">
+											회원으로 저장하시면 1년간 저장됩니다.<br />비회원은 브라우저를 닫으시면 삭제됩니다.<br />저장하신
+											상품은 <strong>관심상품</strong>에서 보실 수 있습니다.<br />
+										</p>
+
+										<ul class="radio_list"></ul>
+										<!--// radio_list -->
+										<p class="txt_layer4">관심상품으로 저장 하시겠습니까?</p>
+										<div class="layer_btn_center m10">
+											<a href="javascript:;"
+												onclick="javascript:saveWishProduct(2942654)"
+												id="btnWishProductSave"> <span class="btn_layer_t1 p10">예</span>
+											</a> <a href="javascript:;" id="btnWishProductNoneSave"> <span
+												class="btn_layer_t1 p10">아니오</span>
+											</a>
 										</div>
 									</div>
-								</li>
-							</ul>
-							<ul>
-								<!-- mall_simg2 size : 40 *18 -->
-								<li class="mall_simg2">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1220563712&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<img alt="11번가" src="//img.danawa.com/cmpny_info/images/TH201_logo.gif"/>									</a>
-								</li>
-								<li class="mall_price1">
-									<a href="http://prod.danawa.com/bridge/loadingBridge.html?cate1=860&amp;cate2=869&amp;cate3=10581&amp;cate4=0&amp;pcode=2942654&amp;cmpnyc=TH201&amp;safe_trade=4&amp;fee_type=T&amp;prod_type=T1&amp;link_pcode=1220563712&amp;package=0&amp;setpc=0" target="_blank" onmousedown="_trkEventLog('13상품블로그_상위최저가');" onclick="mac30_conv_buy(1111540,'LG전자 울트라PC 그램 14ZD950-GX58K (정품)','노트북>노트북>LG전자')">
-										<span class="tahoma">724,978</span>
-									</a>
-									<span class="mall_won">원</span>
-								</li>
-								<li class="mall_price2">+ 27,978<span class="mall_won">원</span></li>
-<li class="delivery_charge2">배송비 무료</li>								<li class="mall_card2" style="cursor:pointer;">
-									카드혜택
-									<div class="layer_type1" style="display:none;z-index:999;left:88px;top:-17px">
-										<div style="" class="layer_abs18">
-											<p class="txt_layer5">
-												신한6/국민6/현대6/삼성6/비씨<br/>3/씨티3/우리3/하나5/롯데5											</p>
+								</div>
+								<div class="layer_type1" id="wishProductCompleteLayer"
+									style="display: none">
+									<div class="layer_abs1">
+										<a href="javascript:;"> <span class="btn_layer_x">닫기</span>
+										</a>
+										<div id="successLayer">
+											<p class="txt_layer1">
+												MSI CX61-i5 2PF Runa Moon (500GB)<br /> <strong>관심상품으로
+													등록되었습니다.</strong><br /> 관심상품 페이지로 이동하시겠습니까?
+											</p>
+											<div class="layer_btn_center m18">
+												<a href="http://www.danawa.com/myPage/wishList.html"
+													onclick="jQuery('#wishProductCompleteLayer').hide();"
+													target="_blank"> <span class="btn_layer_t1 w49">확인</span>
+												</a> <a href="javascript:;"> <span class="btn_layer_t2 w49">취소</span>
+												</a>
+											</div>
+										</div>
+										<div id="faildLayer">
+											<p class="txt_layer1"></p>
+											<div class="layer_btn_center m18">
+												<a onclick="jQuery('#wishProductCompleteLayer').hide();"
+													target="_blank"> <span class="btn_layer_t1 w49">확인</span>
+												</a>
+											</div>
 										</div>
 									</div>
-								</li>
-							</ul>
-</div>
-			<!-- more_view_line -->
-			<div class="more_view_line">
-									<p class="danawa_normal_price">(다나와 평균가:<strong>742,653</strong>원)</p>
-								<a href="#bookmark_price_compare" class="btn_mall200_view">
-					<span class="btn_mall200_txt">쇼핑몰별 152개 더보기</span>
-					<span class="ico_btn_plus">더보기</span>
-				</a>
+								</div>
+								<div id="priceCopyInfoLayer" class="layer_type1"
+									style="display: none">
+									<div class="layer_abs9">
+										<!-- 위치 조절 -->
+										<dl class="txt_copy">
+											<dt>가격복사</dt>
+											<dd>
+												게시물 작성시 유동적인 다나와 최저가를 입력할 때는<strong> ‘가격복사’버튼</strong>을 클릭 후
+												원하는 곳에 붙여넣기 하여 사용하십시오.
+											</dd>
+										</dl>
+									</div>
+								</div>
 							</div>
-			<!--// more_view_line -->
-							<div class="cm_recom">
-					<p>뛰어난 성능과 완벽한 휴대성(980g)을 갖춘 울트라PC 그램</p>
-				</div>
-						<div class="spec_txt">
-				<p>
-				<a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1706,'view',this,3);"><u>인텔</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(24265,'view',this,3);"><u>코어i5-5세대</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(4665,'view',this,3);"><u>i5-5200U (2.2GHz)</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(359,'view',this,3);"><u>LED백라이트</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(904,'view',this,3);"><u>광시야각</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(7800,'view',this,3);"><u>35.56cm(14인치)</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1708,'view',this,3);"><u>1920x1080</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(23005,'view',this,3);"><u>M.2</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(2,'view',this,3);"><u>128GB</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(3467,'view',this,3);"><u>8GB</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(4387,'view',this,3);"><u>DDR3L</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1769,'view',this,3);"><u>ODD 옵션(선택)</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(324,'view',this,3);"><u>운영체제 미포함</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(4413,'view',this,3);"><u>인텔</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(5320,'view',this,3);"><u>HD 5500</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1991,'view',this,3);"><u>시스템 메모리 공유</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1478,'view',this,3);"><u>980g</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(4384,'view',this,3);"><u>리튬 폴리머</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1987,'view',this,3);"><u>탈착 불가능</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(343,'view',this,3);"><u>100Mbps 유선랜</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(10514,'view',this,3);"><u>802.11 n/ac 무선랜</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(356,'view',this,3);"><u>WiDi</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(1771,'view',this,3);"><u>블루투스 4.0</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(290,'view',this,3);"><u>HDMI</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(328,'view',this,3);"><u>웹캠</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(295,'view',this,3);"><u>USB 2.0</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(2794,'view',this,3);"><u>USB 3.0</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(331,'view',this,3);"><u>멀티 리더기</u></a> / <a style="cursor:help;" onclick="javascript:jQuery.termDicViewLink(333,'view',this,3);"><u>블록 키보드</u></a> / 색상: 화이트 / M.2 SSD				<!-- &nbsp;<a href="#"><em>[더보기]</em></a> -->
-				</p>
-			</div>
-			<div class="event_txt_area">
-				<ul class="event_list">
-										<li><a href="http://www.interpark.com/gate/ippgw.jsp?goods_no=3227988249&amp;biz_cd=P01415" target="_blank"><strong>1,101,050</strong>원 / 신한/하나/외한카드 5% 청구할인으로 최저가 구매!</a><a class="btn_now_go" href="http://www.interpark.com/gate/ippgw.jsp?goods_no=3227988249&amp;biz_cd=P01415" target="_blank"><span>바로가기</span></a></li>				</ul>
-			</div>
-						<div class="icon_link_area">
-				<a href="javascript:;"><span class="ico_price_copy" id="clipboardPriceCopy" title="가격복사">가격복사</span></a>
-				<a href="javascript:void(0);" onclick="reportLoginLayoutMsg('reportFocus');"><span class="ico_link1" title="신고하기" id="reportFocus">신고하기</span></a>
-				<a href="javascript:;" onclick="javascript:;"><span class="ico_link2" title="관심상품">관심상품담기</span></a>
-				<a href="javascript:;"><span class="ico_link4" title="주소복사">주소복사</span></a>
-
-				<a href="http://www.danawa.com/sns/danawaSnsShare.php?snsType=1&amp;nShareType=2&amp;content=LG%C0%FC%C0%DA+%BF%EF%C6%AE%B6%F3PC+%B1%D7%B7%A5+14ZD950-GX58K+%28%C1%A4%C7%B0%29&amp;sourceUrl=http%3A%2F%2Fprod.danawa.com%2Finfo%2F%3Fpcode%3D2942654%26cate%3D112908" target="_blank" onmousedown="_trkEventLog('13상품블로그_SNS');"><span class="ico_link5" title="페이스북">FACEBOOK 추천</span></a>
-				<a href="http://www.danawa.com/sns/danawaSnsShare.php?snsType=2&amp;nShareType=2&amp;content=LG%C0%FC%C0%DA+%BF%EF%C6%AE%B6%F3PC+%B1%D7%B7%A5+14ZD950-GX58K+%28%C1%A4%C7%B0%29+%C3%D6%C0%FA%B0%A1+1%2C033%2C000%BF%F8&amp;sourceUrl=http%3A%2F%2Fprod.danawa.com%2Finfo%2F%3Fpcode%3D2942654%26cate%3D112908" target="_blank" onmousedown="_trkEventLog('13상품블로그_SNS');"><span class="ico_link6" title="트위터">twitter</span></a>
-				<a href="javascript:;" onclick="window.open('','popQR','width=510,height=295,left=100,top=100,toolbar=no,status=no,menubar=no,scrollbars=no,resizable=no');document.formQR.submit();" onmousedown="_trkEventLog('13상품블로그_SNS');"><span class="ico_link9" title="QR코드">QR코드</span></a>
-			</div>
-			<div class="layer_type1" id="clipboardLayer" style="display:none">
-				<div class="layer_abs2">
-					<!-- 위치 조절 -->
-					<a href="javascript:;">
-						<span class="btn_layer_x">닫기</span>
-					</a>
-					<div id="clipboardAjaxLoadingLayer">
-						<div style="margin-left: 45%;margin-top:35px">
-							<img src="//img.danawa.com/totalMain/ajax-loader.gif" alt="로딩중"/>
-						</div>
-					</div>
-					<div id="clipboardAjaxCompleteLayer" style="display:none">
-						<p class="txt_layer1">
-							MSI CX61-i5 2PF Runa Moon (500GB)<br/>
-							<strong>주소를 복사합니다.</strong><br/>
-						</p>
-						<div class="layer_btn_center m18">
-							<a href="javascript:;">
-								<span class="btn_layer_t1 w49" id="clipboardOriginalUrl">원래주소</span>
-							</a>
-							<a href="javascript:;">
-								<span class="btn_layer_t1 w49" id="clipboardShotUrl">짧은주소</span>
-							</a>
-							<a href="javascript:;">
-								<span class="btn_layer_t2 w49">취소</span>
-							</a>
+							<!--// goods_detail_area -->
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="layer_type1" id="clipboardCompleteLayer" style="display:none">
-				<div class="layer_abs2">
-					<!-- 위치 조절 -->
-					<a href="javascript:;">
-						<span class="btn_layer_x">닫기</span>
-					</a>
-					<p class="txt_layer1">
-						주소가 복사되었습니다. <br/>
-						<strong>Ctrl + v 로 붙여넣기가 가능합니다.</strong><br/>
-					</p>
-					<div class="layer_btn_center m18">
-						<a href="javascript:;">
-							<span class="btn_layer_t1 w49">확인</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="layer_type1" id="wishProductLayer" style="display:none">
-				<div class="layer_abs6"><!-- 위치 조절 -->
-					<a href="javascript:;"><span class="btn_layer_x">닫기</span></a>
-					<p class="txt_layer2">저장할 위치를 선택하여 주십시오.</p>
-					<p class="txt_layer3">회원으로 저장하시면 1년간 저장됩니다.<br/>비회원은 브라우저를 닫으시면 삭제됩니다.<br/>저장하신 상품은 <strong>관심상품</strong>에서 보실 수 있습니다.<br/></p>
-
-					<ul class="radio_list"></ul>
-					<!--// radio_list -->
-					<p class="txt_layer4">관심상품으로 저장 하시겠습니까?</p>
-					<div class="layer_btn_center m10">
-						<a href="javascript:;" onclick="javascript:saveWishProduct(2942654)" id="btnWishProductSave">
-							<span class="btn_layer_t1 p10">예</span>
-						</a>
-						<a href="javascript:;" id="btnWishProductNoneSave">
-							<span class="btn_layer_t1 p10">아니오</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="layer_type1" id="wishProductCompleteLayer" style="display:none">
-				<div class="layer_abs1">
-					<a href="javascript:;">
-						<span class="btn_layer_x">닫기</span>
-					</a>
-					<div id="successLayer">
-						<p class="txt_layer1">
-							MSI CX61-i5 2PF Runa Moon (500GB)<br/>
-							<strong>관심상품으로 등록되었습니다.</strong><br/>
-							관심상품 페이지로 이동하시겠습니까?
-						</p>
-						<div class="layer_btn_center m18">
-							<a href="http://www.danawa.com/myPage/wishList.html" onclick="jQuery('#wishProductCompleteLayer').hide();" target="_blank">
-								<span class="btn_layer_t1 w49">확인</span>
-							</a>
-							<a href="javascript:;">
-								<span class="btn_layer_t2 w49">취소</span>
-							</a>
-						</div>
-					</div>
-					<div id="faildLayer">
-						<p class="txt_layer1"></p>
-						<div class="layer_btn_center m18">
-							<a onclick="jQuery('#wishProductCompleteLayer').hide();" target="_blank">
-								<span class="btn_layer_t1 w49">확인</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div id="priceCopyInfoLayer" class="layer_type1" style="display:none">
-				<div class="layer_abs9">
-					<!-- 위치 조절 -->
-					<dl class="txt_copy">
-						<dt>가격복사</dt>
-						<dd>
-							게시물 작성시 유동적인 다나와 최저가를 입력할 때는<strong> ‘가격복사’버튼</strong>을 클릭 후 원하는 곳에 붙여넣기 하여 사용하십시오.
-						</dd>
-					</dl>
-				</div>
-			</div>
-		</div>
-		<!--// goods_detail_area -->
-	</div>
-		</div>
-	</div>
-	<div id="block_cm_opinion" style="margin:0 auto; width:850px;"><!-- block_cm_opinion -->
-	<!-- cm_opinion -->
-	<div class="cm_opinion">
-		<!-- title_area2 -->
-		<div class="title_area2">
-			<h3 class="title9"> 상품의견 /  CM추천</h3><!-- 상품의견만 있을때 class=title9_2 -->
-			<p class="title_btn_right">
-				<a href="javascript:;" onclick="CommOP_Refresh()"><span class="btn_refresh">새로고침</span></a>
-							<!-- <span class="tbar">|</span> -->
-				<!-- <a href="http://bbs.danawa.com/cmRecommend/cm_List.php?nSite=5" target="_blank"><span class="btn_t2">CM에게 질문하기</span></a> -->
-						</p>
-		</div>
-		<!--// title_area2 -->
-	</div>
-	<!--// cm_opinion -->
-	
-	
-	<style>
-		#maskForLogin {
-		  position:absolute;
-		  left:0;
-		  top:0;
-		  z-index:9000;
-		  background-color:#000;
-		  display:none;
-		}
-		  
-		#loginBoxes .window {
-		  position:fixed;
-		  left:0;
-		  top:0;
-		  width:440px;
-		  height:200px;
-		  display:none;
-		  z-index:9999;
-		  padding:20px;
-		}
-	
-		#loginBoxes #loginDialog {
-		  width:490px; 
-		  height:420px;
-		  padding:0px;
-		  box-shadow: 3px 6px 6px rgba(0,0,0,.5);
-		}
-	</style>
-	
-	<div id="maskForLogin"></div>
-	
-	<div id="loginBoxes">
-		<div id="loginDialog" class="window">
-			<iframe id="loginZone" style="display:;" frameborder="0" width="490px" height="420px" scrolling="no" title="로그인 팝업(다나와,페이스북,트위터,미투데이)"></iframe>
-		</div>
-	</div>
-	
-	
-	<div class="comment_form">
-		<div class="comment_write_area">
-			<div class="comment_login" id="login_div" name="login_div[]">
-		<p class="id_mail_name" th:inline="text" style="font-size: 16px;">[[${#httpServletRequest.remoteUser}]]</p>
-			<div class="over_position">
-				<input type="hidden" id="sRepSnsName" value=""/>
-				<input type="hidden" id="sRepSnsUrl" value="//img.danawa.com/icon/icon_default_03.gif"/>
-				<!-- over_change_layer2 -->
-				<div id="over_change_layer2" name="over_change_layer2[]" style="display:none;">
-					<p class="logo_icons">
-					<a href="javascript:snsChange('danawa','repChange')" onclick="" id="loginForSnsCommentDanawaPb2" class="big_logo">danawa.com</a>
-					<a href="javascript:snsCertification('FACEBOOK')" class="big_facebook_off">facebook</a>
-					<a href="javascript:snsCertification('TWITTER')" class="big_twitter_off">twitter</a>
-					</p>
-				</div>
-			</div>
-			<!--// over_change_layer2 -->
-		</div>
-	
-			<form name="frmUserOneLine" method="POST">
-				<fieldset>
-				<legend>댓글쓰기</legend>
-				<div class="textarea_wrap textarea_wrap2">
-					<textarea title="댓글 내용" rows="10" cols="80" id="comment-text" style="background-attachment: initial; background-color: rgb(244, 244, 244); background-size: initial; background-origin: initial; background-clip: initial; background-position: 8px 11px; background-repeat: no-repeat;" onkeyup="getCommunityCharByte('sDescm','opWriteTxt',1000);" onclick=""></textarea>
-				</div>
-				<input type="button" class="submit3" value="등록" onclick="commentWrite()" onkeydown="commentWrite()"/>
-				</fieldset>
-			</form>
-		</div>
-	
-		<form name="frmUserOneLineModify" method="POST">
-		<div id="comm_op_comment">
-			<!-- comment_view -->
-			<div class="comment_view">
-			<ul class="comment-ul"><!-- 마지막 li class="last" -->
-				<li class="comment-li">
-					<div class="thumb">
-						<img src="img/profile.jpg" class="thumb_img" width="45px" height="45px"/>
-					</div>
-					<!-- comment_cont -->
-					<div class="comment_cont">
-						<!-- comment_writer -->
-						<div class="comment_writer">
-							<p class="txt_i">
-								<!--<a href="#" class="btn_logo_off">danawa.com</a>-->							<a class="id_name" href="javascript:newViewUserInfo('choi4773','1146422')"><b>누구</b></a>
-								<span class="comment-date">2015.04.13&nbsp;15:42:12</span></p>
-							<!-- 댓글 선택시 class="on" -->
-							<p class="btn_right_area">
-															<!--<a class="bt" href="javascript:;" onclick="fncComplaint('6967328' , '33')"><span>신고</span></a>-->
+				<div id="block_cm_opinion" style="margin: 0 auto; width: 850px;">
+					<!-- block_cm_opinion -->
+					<!-- cm_opinion -->
+					<div class="cm_opinion">
+						<!-- title_area2 -->
+						<div class="title_area2">
+							<h3 class="title9">상품의견 / CM추천</h3>
+							<!-- 상품의견만 있을때 class=title9_2 -->
+							<p class="title_btn_right">
+								<a href="javascript:;" onclick="CommOP_Refresh()"><span
+									class="btn_refresh">새로고침</span></a>
+								<!-- <span class="tbar">|</span> -->
+								<!-- <a href="http://bbs.danawa.com/cmRecommend/cm_List.php?nSite=5" target="_blank"><span class="btn_t2">CM에게 질문하기</span></a> -->
 							</p>
-							<p class="txt_w" id="sWrite_6967328">학교컴이 구려서 애들다 노트북 들고 다니는데 그램쓰는애들보면 LOL정도는 렉같은거 걱정없이 무난하게 돌림.. 던파하는애들도 있는데 <br/>
-	그정도까지는 무리없음...  개인적으로 그램 장점꼽으라면 무게나 디자인보다는 패널을 좋은거 가져다 쓰는지 색감이 레노버나 HP 한성꺼보다<br/>
-	차이가 확 날정도로 압도적으로 좋음. 단점은 비슷한 가격대 i7-4710mq랑 비교했을때 무한코딩 하다보면 성능차이를 패널차이 이상으로 느껴버린다는거....</p>
-							<div id="sUpdate_6967328"></div>
 						</div>
-						<!--// comment_writer -->
-					<!-- 댓글 폼 -->
-					<div id="reply_6967328" class="comment_writer" style="display:none;">
+						<!--// title_area2 -->
 					</div>
-					<!--// 댓글 폼 //-->
+					<!--// cm_opinion -->
+
+
+					<style>
+#maskForLogin {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9000;
+	background-color: #000;
+	display: none;
+}
+
+#loginBoxes .window {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 440px;
+	height: 200px;
+	display: none;
+	z-index: 9999;
+	padding: 20px;
+}
+
+#loginBoxes #loginDialog {
+	width: 490px;
+	height: 420px;
+	padding: 0px;
+	box-shadow: 3px 6px 6px rgba(0, 0, 0, .5);
+}
+</style>
+
+					<div id="maskForLogin"></div>
+
+					<div id="loginBoxes">
+						<div id="loginDialog" class="window">
+							<iframe id="loginZone" style="display:;" frameborder="0"
+								width="490px" height="420px" scrolling="no"
+								title="로그인 팝업(다나와,페이스북,트위터,미투데이)"></iframe>
+						</div>
 					</div>
-					<!--// comment_cont -->
-				</li>
-			</ul>
+
+
+					<div class="comment_form">
+						<div class="comment_write_area">
+							<div class="comment_login" id="login_div" name="login_div[]">
+								<p class="id_mail_name" th:inline="text"
+									style="font-size: 16px;">[[${#httpServletRequest.remoteUser}]]</p>
+								<div class="over_position">
+									<input type="hidden" id="sRepSnsName" value="" /> <input
+										type="hidden" id="sRepSnsUrl"
+										value="//img.danawa.com/icon/icon_default_03.gif" />
+									<!-- over_change_layer2 -->
+									<div id="over_change_layer2" name="over_change_layer2[]"
+										style="display: none;">
+										<p class="logo_icons">
+											<a href="javascript:snsChange('danawa','repChange')"
+												onclick="" id="loginForSnsCommentDanawaPb2" class="big_logo">danawa.com</a>
+											<a href="javascript:snsCertification('FACEBOOK')"
+												class="big_facebook_off">facebook</a> <a
+												href="javascript:snsCertification('TWITTER')"
+												class="big_twitter_off">twitter</a>
+										</p>
+									</div>
+								</div>
+								<!--// over_change_layer2 -->
+							</div>
+
+							<form name="frmUserOneLine" method="POST">
+								<fieldset>
+									<legend>댓글쓰기</legend>
+									<div class="textarea_wrap textarea_wrap2">
+										<textarea title="댓글 내용" rows="10" cols="80" id="comment-text"
+											style="background-attachment: initial; background-color: rgb(244, 244, 244); background-size: initial; background-origin: initial; background-clip: initial; background-position: 8px 11px; background-repeat: no-repeat;"
+											onkeyup="getCommunityCharByte('sDescm','opWriteTxt',1000);"
+											onclick=""></textarea>
+									</div>
+									<input type="button" class="submit3" value="등록"
+										onclick="commentWrite()" onkeydown="commentWrite()" />
+								</fieldset>
+							</form>
+						</div>
+
+						<form name="frmUserOneLineModify" method="POST">
+							<div id="comm_op_comment">
+								<!-- comment_view -->
+								<div class="comment_view">
+									<ul class="comment-ul">
+										<!-- 마지막 li class="last" -->
+										<li class="comment-li">
+											<div class="thumb">
+												<img src="img/profile.jpg" class="thumb_img" width="45px"
+													height="45px" />
+											</div> <!-- comment_cont -->
+											<div class="comment_cont">
+												<!-- comment_writer -->
+												<div class="comment_writer">
+													<p class="txt_i">
+														<!--<a href="#" class="btn_logo_off">danawa.com</a>-->
+														<a class="id_name"
+															href="javascript:newViewUserInfo('choi4773','1146422')"><b>누구</b></a>
+														<span class="comment-date">2015.04.13&nbsp;15:42:12</span>
+													</p>
+													<!-- 댓글 선택시 class="on" -->
+													<p class="btn_right_area">
+														<!--<a class="bt" href="javascript:;" onclick="fncComplaint('6967328' , '33')"><span>신고</span></a>-->
+													</p>
+													<p class="txt_w" id="sWrite_6967328">
+														학교컴이 구려서 애들다 노트북 들고 다니는데 그램쓰는애들보면 LOL정도는 렉같은거 걱정없이 무난하게
+														돌림.. 던파하는애들도 있는데 <br /> 그정도까지는 무리없음... 개인적으로 그램 장점꼽으라면 무게나
+														디자인보다는 패널을 좋은거 가져다 쓰는지 색감이 레노버나 HP 한성꺼보다<br /> 차이가 확 날정도로
+														압도적으로 좋음. 단점은 비슷한 가격대 i7-4710mq랑 비교했을때 무한코딩 하다보면 성능차이를
+														패널차이 이상으로 느껴버린다는거....
+													</p>
+													<div id="sUpdate_6967328"></div>
+												</div>
+												<!--// comment_writer -->
+												<!-- 댓글 폼 -->
+												<div id="reply_6967328" class="comment_writer"
+													style="display: none;"></div>
+												<!--// 댓글 폼 //-->
+											</div> <!--// comment_cont -->
+										</li>
+									</ul>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="paging_blog" id="comm_op_paging">
+						<strong>1</strong><a
+							href="javascript:loadOpinion( 'page=2' , '' );"><span
+							class="arw">다음글보기</span></a> <a class="btn_older_view"
+							href="javascript:;" onclick="jQuery(this).listMode(1);"><span>2년전글보기</span></a>
+
+					</div>
+
+					<!--// block_cm_opinion -->
+				</div>
+			</div>
 		</div>
-		</div>
-		</form>
-		</div>
-		<div class="paging_blog" id="comm_op_paging">
-		<strong>1</strong><a href="javascript:loadOpinion( 'page=2' , '' );"><span class="arw">다음글보기</span></a>			<a class="btn_older_view" href="javascript:;" onclick="jQuery(this).listMode(1);"><span>2년전글보기</span></a>
-		
 	</div>
-	
-	<!--// block_cm_opinion -->
-	</div>
-</div>
-	</div>
-</div>
 </body>
 </html>
 
